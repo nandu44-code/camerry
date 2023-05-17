@@ -1,0 +1,184 @@
+body{
+    margin:0;
+    background-color: rgb(156, 64, 65);;
+}
+header{
+    padding-left: 50px;
+    padding-right: 50px;
+    width:1436px;
+    height:66px;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+}
+.logo{
+    height:45px;
+    width:200px;
+    
+}
+.nav-barmiddle{
+    
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+    width:550px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-barmiddle p:hover{
+    color:grey;
+    cursor:pointer;
+}
+.social-link{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:200px;
+}
+.social-link i:hover{
+    background-color:grey;
+    cursor:pointer;
+    border-radius:100%;
+}
+.icecream-firstpic{
+    height:900px;
+    width:1534px;
+}
+.icecream-secondpic{
+    height:900px;
+    width:1534px;
+}
+
+.icecream-image{
+    height:612px;
+    width: 555px;
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.half-aboutdiv{
+margin-top: 120px;
+margin-left:50px;
+
+}
+section{
+    margin-bottom: 50px;;
+}
+
+
+.motto-1{
+     font-size: 15px;
+     color: white;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 500;
+}
+.motto{
+    font-size:50px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+.motto-2{
+    color:white;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.about-div{
+    display: flex;
+    
+}
+.button-section{
+    width:100px;
+    height:40px; 
+    color:yellow;
+    background-color: transparent;  
+    border-color: yellow;
+    border-style: solid;
+}
+.button-section:hover{
+    background-color: yellow;
+    color:black;
+}
+footer{
+    height:545px;
+    
+    background-color: rgb(28, 28, 28);
+}
+
+.footer-section1{
+    display:flex;
+    justify-content: space-around;
+    padding-top:40px;
+    height:50px;
+    
+}
+.hr{
+    margin-top: 150px;
+    border-bottom:1px solid rgb(210, 205, 205);
+    margin-left:150px;
+    margin-right:150px;
+}
+.contact-info h3{
+    color: rgb(202, 138, 59);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    line-height:40px;
+    font-weight: 400;
+    
+}
+.contact-info p{
+    color:rgba(212, 212, 83, 0.486);
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-link{
+     margin-top: 30px;
+     color:yellow;
+     background-color: transparent;
+     border-color: yellow;
+     border-style: solid;
+     width:150px;
+     height:40px;
+}
+.contact-link:hover{
+    background-color:yellow ;
+    color:black;
+}
+.footer-lastsection{
+    margin-left:150px;
+    margin-right:150px;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+.logo-footer{
+    height:45px;
+    width:200px;
+    margin-top:90px;
+}
+.adress-div p{
+     color:rgba(212, 212, 83, 0.486);
+    margin-top:40px;
+    font-family:'Montserrat', sans-serif ;
+
+}
+.info-div{
+    height:265px;
+    margin-top:40px;
+    
+}
+.info-div a{
+    
+    color: rgb(231, 206, 40);
+    line-height:30px;
+}
+.info-div a:hover{
+    
+    color:rgb(162, 120, 3);
+}
+
